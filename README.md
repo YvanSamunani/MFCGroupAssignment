@@ -136,3 +136,7 @@ The last vector output in this iterative process is the final pagerank:
 <img src="https://s3.amazonaws.com/albertpersonal/final_vector.png" width=100 height=90>
 
 &nbsp; Given this vector, we can see that Page 1 has the highest rank. This is expected because Page 1 has the most inbound links of any page. But notice that Page 4 has a very high rank, too, despite having only one inbound link! This is because this single inbound link comes from Page 1, which happens to be the most important page. Since this link is Page 1's sole outbound link, Page 1 transfers all of its influence through it (If you were a prospective applicant looking for a new job, one recommendation from Larry Page himself would be more impactful than ten recommendations from your coworkers!). Remember that not only does the amount of inbound links matter, but so does the weight of each link!
+
+#Reference
+
+Lee, A., 2018. PageRank/README.md at master · leealbert95/PageRank. [online] GitHub. Available at: <https://github.com/leealbert95/PageRank/blob/master/README.md?plain=1> [Accessed 24 October 2021].
